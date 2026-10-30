@@ -62,6 +62,8 @@ public class Aquarium {
         CanvasAPI canvas = Graphics.createCanvas(800, 800, "guy");
         PainterAPI painter = canvas.getPainter();
  
-        painter.setSpeed(0); // needed to be 0 for "animation" purposes
+        painter.setSpeed(4); // needed to be 0 for "animation" purposes
+        painter.circle(100);
+        painter.clear();
     }
 }
