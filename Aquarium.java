@@ -25,7 +25,7 @@ public class Aquarium {
     }
 
     /*
-    * @param ammount, allows the changeing of how many decoration items will be made
+    * @param int ammount, allows the changeing of how many decoration items will be made
     */
     public static void makeDeco(int amount){
         // makes deco and the floor
@@ -33,8 +33,8 @@ public class Aquarium {
     }   
 
     /* 
-    * @param color, gives the guy his color
-    * @param size, gives the guy his size
+    * @param Color color, gives the guy his color
+    * @param int size, gives the guy his size
     */
     public static void setGuy(Color color, int size){
         // creates a new guy
