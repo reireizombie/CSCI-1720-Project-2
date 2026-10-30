@@ -44,11 +44,16 @@ public class Aquarium {
 
     public static void killScreen(){
         // simply clears the screen and calls the methods that creates the guy and floor/deco
-    }
+        // will be called often for "animation" purposes
+     }
 
     public static void randomEventShootingStar(){
         // a line on top of the screen shots by
         // will change guy's state to look up
+    }
+
+    public static void randomEventNothingIsWatching(){
+        // rare event where nothing watches :)
     }
 
     public static void main(String[] args) {
